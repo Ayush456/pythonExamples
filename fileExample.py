@@ -6,13 +6,9 @@ print("Mode of operation is : ",filename.mode)
 
 #for index in range(len(filename)):
  #    line =
-length= len(filename.readline())
-print("Filesize : ", length )
+count = 0
+for index in filename :
+    #line = next(filename)
+    count = count + 1
 
-str = "this is ayush gupta"
-str2 =str.split(" ")
-
-for contents in str2:
-    print("\n",contents)
-
-
+print("The no of lines is : ",count)
