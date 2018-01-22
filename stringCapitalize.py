@@ -21,5 +21,14 @@ print("",str.find(sub3))
 #replacing a string
 print(str.replace("a","was"))
 
+#string split method
+print(str.split())
+print(str.split(sub,1))
+print(str.split("a"))
+
+
+
+
+
 
 
