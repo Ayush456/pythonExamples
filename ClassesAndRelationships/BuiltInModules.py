@@ -25,3 +25,4 @@ print("\n The third attribute of object 1 is : ",obj1.at3)
 
 delattr(obj1,'at3')                      # deleting the third attribute
 print("Is there an attribute name 'at3' in object1 after deleting it? : " ,hasattr(obj1,'at3'))
+
